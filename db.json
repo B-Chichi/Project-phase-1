@@ -18,7 +18,12 @@
       "Bruno Fernandes",
       "Casemiro",
       "Amad",
-      "Kobbie Mainoo"
+      "Kobbie Mainoo",
+      "Noussair Mazraoui",
+      "Lisandro Martinez",
+      "Joshua Zirkzee",
+      "Manuel Ugarte",
+      "Alejandro Garnacho"
     ],
     "stadium": "Old Trafford"
   },
@@ -39,7 +44,10 @@
       "Kevin de Bruyne",
       "Ruben Dias",
       "Ederson",
-      "Omar Marmoush"
+      "Omar Marmoush",
+      "Phil Foden",
+      "Rodri",
+      "Ilkay Gundogan"
     ],
     "stadium": "Etihad"
   },
@@ -109,7 +117,7 @@
   {
     "id": 6,
     "name": "Tottenham Hotspur",
-    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/1200px-Tottenham_Hotspur.svg.png",
+    "badge": "https://yt3.googleusercontent.com/tTaDFj1_pVKMvfburc-9yBvPZ0i_jz58Dls60blgvz5F_qfAMoe-_DQaEuTDPYJFA687hIcSKA=s900-c-k-c0x00ffffff-no-rj",
     "description": "Tottenham Hotspur Football Club, commonly referred to as simply Tottenham or Spurs, is a professional football club based in Tottenham, north London, England. It competes in the Premier League, the top tier of English football.",
     "league": "Premier League",
     "position": 15,
@@ -193,7 +201,7 @@
   {
     "id": 10,
     "name": "Bayern Munich",
-    "badge": "https://lh3.googleusercontent.com/59ox2d86S-m89eKP5QMObx2b1cqOQS3FwPl1b52UUjXqWmAwCWDcT_7vx_ouuqzhjxaW2Lbjo-o=w1440-ns-nd-rj",
+    "badge": "https://www.pointspreads.com/wp-content/uploads/2022/07/FC-Bayern-Munchen.webp",
     "description": "Fußball-Club Bayern München e. V., commonly known as Bayern Munich, FC Bayern or simply Bayern, is a German professional sports club based in Munich, Bavaria. They are most known for their men's professional football team, who play in the Bundesliga, the top tier of the German football league system.",
     "league": "Bundesliga",
     "position": 1,
@@ -235,7 +243,7 @@
   {
     "id": 12,
     "name": "Bayer Lervekusen",
-    "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWs4gz1M_CpiMyqq-NFyDfLkXuRsmEnvLBNrG1HsIw5BHhQse6hwdqzXyh99XbT4J_8yQ&usqp=CAU",
+    "badge": "https://brandlogos.net/wp-content/uploads/2014/11/bayer_04_leverkusen-logo-brandlogo.net_.png",
     "description": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia.",
     "league": "Bundesliga",
     "position": 4,
@@ -256,7 +264,7 @@
   {
     "id": 13,
     "name": "Juventus",
-    "badge": "https://www.juventus.com/images/image/upload/v1693403953/juventuscom-prd/assets/juventus_logo.png",
+    "badge": "https://creativereview.imgix.net/content/uploads/2017/01/Juve-sq.jpg",
     "description": "Juventus Football Club, commonly known as Juventus or colloquially as Juve, is an Italian professional football club based in Turin, Piedmont, who compete in Serie A, the top tier of the Italian football league system.",
     "league": "Serie A",
     "position": 8,
@@ -319,7 +327,7 @@
   {
     "id": 16,
     "name": "AS Roma",
-    "badge": "",
+    "badge": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/104.png&h=200&w=200",
     "description": "Associazione Sportiva Roma is a professional football club based in Rome, Italy. Founded by a merger in 1927, Roma has participated in the top tier of Italian football for all of its existence, except for the 1951–52 season.",
     "league": "Serie A",
     "position": 7,
@@ -340,7 +348,7 @@
   {
     "id": 17,
     "name": "Lazio",
-    "badge": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/S.S._Lazio_badge.svg/1200px-S.S._Lazio_badge.svg.png",
+    "badge": "https://mediaverse.sslazio.hiway.media/VMFS1/FILES/public/upload/63b2e765/Group%202%20(1).jpg?webp&q=100&size=-x609",
     "description": "Società Sportiva Lazio is an Italian professional sports club based in Rome, most known for its football activity. The society, founded in 1900, plays in the Serie A and have spent most of their history in the top tier of Italian football.",
     "league": "Serie A",
     "position": 4,
@@ -424,7 +432,7 @@
   {
     "id": 21,
     "name": "Lyon",
-    "badge": "",
+    "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3mGUiQQXDTKZKKX_jxx1SM4-a8jl0iAXhhw&s",
     "description": "Olympique Lyonnais, commonly referred to as simply Lyon or OL, is a French professional football club based in Lyon, Auvergne-Rhône-Alpes. With origins dating back to 1899, they were founded in 1950 and provisionally compete in France's highest football division, Ligue 1. ",
     "league": "Ligue 1",
     "position": 3,
