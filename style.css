@@ -1,0 +1,104 @@
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+#search, #filter {
+    background-color: #121212;
+    color: grey;
+    border: 1px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#search:hover{
+    background-color: white;
+}
+
+#filter:hover{
+    background-color: white;
+}
+
+main {
+    display: flex;
+    padding: 20px; 
+} 
+
+#list {
+    width: 40%;
+    border-right: 2px solid grey;
+    cursor: pointer;
+    font-size: larger;
+    color: wheat;
+    background-color: white;
+}
+
+#details {
+    width: 60%;
+    padding-left: 20px;
+    color: ghostwhite;
+}
+
+
+#badge{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 10px;
+    padding-left: 350px;
+}
+
+#name{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+    color: gold;
+    font-size: xx-large;
+
+}
+
+.club-item:hover{
+    background-color: gray;
+}
+
+.club-item[data-league="Premier League"]{
+    color: rgb(61, 25, 91);
+}
+
+.club-item[data-league="La Liga"]{
+    color: rgb(238, 135, 7);
+}
+
+.club-item[data-league="Bundesliga"]{
+    color: rgb(210,5, 21);
+}
+
+.club-item[data-league="Serie A"]{
+    color :rgb(0, 143, 215);
+}
+
+.club-item[data-league="Ligue 1"]{
+    color: rgb(18, 35, 63);
+}
