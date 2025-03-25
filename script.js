@@ -22,7 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const clubs = data.clubs; //fetches data
       displayClubs(clubs); //club data to be displayed
     })
-    .catch((error) => console.error("Error fetching data:", error));
+      .catch((error) => console.error("Error fetching data:", error));
+    
+    document.getElementById("explore").addEventListener("click", ()=>{
+        document.getElementById("list").scrollIntoView({behavior:"smooth"})//to make my club list scroll into view when the explore button is clicked
+    })
 
   function displayClubs(clubs) {
     // Function to display clubs list
