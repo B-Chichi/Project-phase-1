@@ -12,7 +12,7 @@ FEATURES
 TECHNOLOGIES USED
 
 HTML,CSS,JS
-JSON 
+JSON
 
 INSTRUCTIONS ON HOW TO USE
 Clone this repository to your terminal then run VS Code
@@ -24,4 +24,7 @@ Type in the search bar to find a club
 Use the dropdown filter to switch between leagues
 Click a club to see more details
 
+AUTHOR
 
+Brian Bett
+ 
