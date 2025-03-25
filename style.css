@@ -6,7 +6,6 @@ body {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Manchester_United_Panorama_%288051523746%29.jpg/1200px-Manchester_United_Panorama_%288051523746%29.jpg);
   background-size: cover;
   background-position: center;
-  font-weight: bold;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -16,14 +15,14 @@ body {
 
 header {
   background: linear-gradient(to right, #37003c, #e90052);/*I want my colors to change from left to right*/
-  padding: 20px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   color: white;
 }
@@ -45,9 +44,9 @@ nav {
   border: none;
   padding: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 10px;
 }
 #search:hover,
 #explore:hover {
@@ -67,7 +66,6 @@ main {
   width: 40%;
   border-right: 2px solid grey;
   cursor: pointer;
-  font-size: larger;
   color: wheat;
   background-color: white;
 }
@@ -77,14 +75,16 @@ main {
   width: 60%;
   padding-left: 20px;
   color: black;
+  align-items: center;
 }
+
 
 #badge {
   width: 200px;
   height: 200px;
-  display: block;
   margin: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 #name {
