@@ -1,116 +1,129 @@
-body {
+/*body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Manchester_United_Panorama_%288051523746%29.jpg/1200px-Manchester_United_Panorama_%288051523746%29.jpg)no-repeat center;
+    height: 100vh;
+    filter: brightness(100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #121212;
     color: white;
 
+}*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Manchester_United_Panorama_%288051523746%29.jpg/1200px-Manchester_United_Panorama_%288051523746%29.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
+
 header {
-   background:linear-gradient(to right,#37003c,#e90052);
-    padding:20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: linear-gradient(to right, #37003c, #e90052);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-    
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
 }
 
-header p{
-    font-size: 1.5rem;
+header p {
+  font-size: 1.5rem;
 }
 
 nav {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
-#search, #filter ,#explore {
-    background-color:white;
-    color: black;
-    border: none;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 16px;
+#search,
+#filter,
+#explore {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
 }
-#search:hover,#explore:hover {
-    background-color: rgba(255, 255, 255, 0.604);
+#search:hover,
+#explore:hover {
+  background-color: rgba(255, 255, 255, 0.604);
 }
 
-#filter:hover{
-    background-color: rgba(255, 255, 255, 0.605);
+#filter:hover {
+  background-color: rgba(255, 255, 255, 0.605);
 }
 
 main {
-    display: flex;
-    padding: 20px; 
-} 
+  display: flex;
+  padding: 20px;
+}
 
 #list {
-    width: 40%;
-    border-right: 2px solid grey;
-    cursor: pointer;
-    font-size: larger;
-    color: wheat;
-    background-color: white;
+  width: 40%;
+  border-right: 2px solid grey;
+  cursor: pointer;
+  font-size: larger;
+  color: wheat;
+  background-color: white;
 }
 
 #details {
-    width: 60%;
-    padding-left: 20px;
-    color: ghostwhite;
+  width: 60%;
+  padding-left: 20px;
+  color: black;
 }
 
-
-#badge{
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin: 10px;
-    padding-left: 360px;
+#badge {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+  padding-left: 360px;
 }
 
-#name{
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 10px;
-    color: gold;
-    font-size: xx-large;
-
+#name {
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 10px;
+  color: gold;
+  font-size: xx-large;
 }
 
-
-.club-item:hover{
-    background-color: gray;
+.club-item:hover {
+  background-color: gray;
 }
 
-.club-item[data-league="Premier League"]{
-    color: rgb(61, 25, 91);
+.club-item[data-league="Premier League"] {
+  color: rgb(61, 25, 91);
 }
 
-.club-item[data-league="La Liga"]{
-    color: rgb(238, 135, 7);
+.club-item[data-league="La Liga"] {
+  color: rgb(238, 135, 7);
 }
 
-.club-item[data-league="Bundesliga"]{
-    color: rgb(210,5, 21);
+.club-item[data-league="Bundesliga"] {
+  color: rgb(210, 5, 21);
 }
 
-.club-item[data-league="Serie A"]{
-    color :rgb(0, 143, 215);
+.club-item[data-league="Serie A"] {
+  color: rgb(0, 143, 215);
 }
 
-.club-item[data-league="Ligue 1"]{
-    color: rgb(18, 35, 63);
+.club-item[data-league="Ligue 1"] {
+  color: rgb(18, 35, 63);
 }
 
-#explore{
-    transition: 0.3s ease;
+#explore {
+  transition: 0.3s ease;
 }
-

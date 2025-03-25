@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
       const clubs = data.clubs; //fetches data
       displayClubs(clubs); //club data to be displayed
     })
-      .catch((error) => console.error("Error fetching data:", error));
-    
-    document.getElementById("explore").addEventListener("click", ()=>{
-        document.getElementById("list").scrollIntoView({behavior:"smooth"})//to make my club list scroll into view when the explore button is clicked
-    })
+    .catch((error) => console.error("Error fetching data:", error));
+
+  document.getElementById("explore").addEventListener("click", () => {
+    document.getElementById("list").scrollIntoView({ behavior: "smooth" }); //to make my club list scroll into view when the explore button is clicked
+  });
 
   function displayClubs(clubs) {
     // Function to display clubs list
@@ -76,12 +76,13 @@ function searchClubs() {
 document.getElementById("search").addEventListener("input", searchClubs); //calls searchClubs every time there  is an input
 
 function filter() {
-  const league = document.getElementById("filter").value;//gets the selected league from #filter
-  document.querySelectorAll(".club-item").forEach((clubItem) => {//loops through all clubs
-    const clubLeague = clubItem.getAttribute("data-league");//gets each clubs league using the attribute value I set earlier
+  const league = document.getElementById("filter").value; //gets the selected league from #filter
+  document.querySelectorAll(".club-item").forEach((clubItem) => {
+    //loops through all clubs
+    const clubLeague = clubItem.getAttribute("data-league"); //gets each clubs league using the attribute value I set earlier
 
     clubItem.style.display =
-      league === "All" || clubLeague === league ? "block" : "none";//If the selected league is "All" it shows all clubs,,,,otherwise it shows the clubs matching selected leagues
+      league === "All" || clubLeague === league ? "block" : "none"; //If the selected league is "All" it shows all clubs,,,,otherwise it shows the clubs matching selected leagues
   });
 }
 
