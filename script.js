@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const clubItem = document.createElement("li"); //creates a new li element
       clubItem.textContent = club.name; //introduces club name into the list
       clubItem.classList.add("club-item"); //adds a class for styling
+
       clubItem.setAttribute("data-league", club.league); //sets league name to data attribute in order to filter the clubs easily
 
       clubItem.addEventListener("click", () => displayDetails(club)); //function to show details
@@ -67,8 +68,8 @@ function searchClubs() {
 
   document.querySelectorAll(".club-item").forEach((clubItem) => {
     //selects all club elements and compares if the values match with the searched item
-    clubItem.style.display = clubItem.textContent.includes(searchInput) //I used a ternary operator instead of if/else because it is shorter,,,,I used .style to easily change visibility
-      ? "block" //if yes it is displayed
+    clubItem.style.display = clubItem.textContent.includes(searchInput) //I used a ternary operator instead of if/else because it is shorter,,,,I used .style to easily change visibility without CSS
+      ? "block" //if yes it is displayed     //I  also used .include instead of === to make it live-search friendly
       : "none"; //if not it is hidden
   });
 }
