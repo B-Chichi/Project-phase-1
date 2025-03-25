@@ -87,5 +87,5 @@ function filter() {
   });
 }
 
-document.getElementById("filter").addEventListener("change", filter); //I tried adding an event listener to league but it did not work,,then I did some research and found out that its because its not a DOM element
+document.getElementById("filter").addEventListener("change", filter); //I tried adding an event listener to "league" in line 80 but it did not work,,then I did some research and found out that its because its not a DOM element
 //we add an event listener to filter because we want to know when a user selects a new league,,therefore we are listening to "change" event
