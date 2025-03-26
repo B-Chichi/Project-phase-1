@@ -104,26 +104,6 @@ main {
   background-color: gray;
 }
 
-.club-item[data-league="Premier League"] {
-  color: rgb(61, 25, 91);
-}
-
-.club-item[data-league="La Liga"] {
-  color: rgb(238, 135, 7);
-}
-
-.club-item[data-league="Bundesliga"] {
-  color: rgb(210, 5, 21);
-}
-
-.club-item[data-league="Serie A"] {
-  color: rgb(0, 143, 215);
-}
-
-.club-item[data-league="Ligue 1"] {
-  color: rgb(18, 35, 63);
-}
-
 
 footer{
   background-color: black;
