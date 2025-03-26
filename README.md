@@ -25,7 +25,7 @@ Open index.html on your brwoser
 
 HOW TO USE THE WEBSITE
 
-Type in the search bar to find a club
+Type in the search bar to find a club,,it is case sensitive
 
 Use the dropdown filter to switch between leagues
 
