@@ -123,3 +123,11 @@ main {
 .club-item[data-league="Ligue 1"] {
   color: rgb(18, 35, 63);
 }
+
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
