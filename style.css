@@ -89,7 +89,8 @@ main {
   height: 200px;
   margin: 10px;
   text-align: center;
-  display: inline-block;
+  display: block;
+  margin: 10px auto;
 }
 
 #name {
