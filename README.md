@@ -31,6 +31,9 @@ Use the dropdown filter to switch between leagues
 
 Click a club to see more details
 
+This is the video link to my recording
+[Video](https://drive.google.com/file/d/1MsUcA6t7e0_wWRKzx_PSMReJQyBoZKDS/view?usp=drive_link)
+
 AUTHOR
 
 Brian Bett
